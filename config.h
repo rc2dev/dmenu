@@ -8,10 +8,8 @@ static const char *fonts[] = {
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 
-/* Colorscheme from pywal */
-#include "/home/rafael/.cache/wal/colors-wal-dmenu.h"
-/* use this if pywal unavailable */
-/*#include "colors-default.h"*/
+/* Colorscheme from pywal or default */
+#include "colors.h"
 
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
