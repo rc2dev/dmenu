@@ -11,8 +11,9 @@ static const char *prompt      = NULL;      /* -p  option; prompt to the left of
 /* Colorscheme from pywal or default */
 #include "colors.h"
 
-/* -l option; if nonzero, dmenu uses vertical list with given number of lines */
+/* -l and -g options; controls number of lines and columns in grid if > 0 */
 static unsigned int lines      = 0;
+static unsigned int columns    = 0;
 
 /*
  * Characters not considered part of a word while deleting words
