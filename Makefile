@@ -23,7 +23,7 @@ config.h:
 $(OBJ): arg.h config.h config.mk drw.h colors.h
 
 colors.h:
-	sed "/urg/d" $${HOME}/.cache/wal/colors-wal-dwm.h > $@\
+	sed "/urg/d" $${HOME}/.cache/wal/colors-wal-dmenu.h > $@\
 		|| cp colors.def.h $@
 
 dmenu: dmenu.o drw.o util.o
