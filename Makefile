@@ -23,8 +23,7 @@ config.h:
 $(OBJ): arg.h config.h config.mk drw.h colors.h
 
 colors.h:
-	sed "/urg/d" $${HOME}/.cache/wal/colors-wal-dmenu.h > $@\
-		|| cp colors.def.h $@
+	cp colors.def.h $@
 
 dmenu: dmenu.o drw.o util.o
 	$(CC) -o $@ dmenu.o drw.o util.o $(LDFLAGS)
@@ -33,7 +32,7 @@ stest: stest.o
 	$(CC) -o $@ stest.o $(LDFLAGS)
 
 clean:
-	rm -f dmenu stest $(OBJ) dmenu-$(VERSION).tar.gz colors.h
+	rm -f dmenu stest $(OBJ) dmenu-$(VERSION).tar.gz
 
 dist: clean
 	mkdir -p dmenu-$(VERSION)
