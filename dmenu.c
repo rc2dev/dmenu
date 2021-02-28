@@ -208,6 +208,13 @@ drawmenu(void)
 				y + (((i % lines) + 1) * bh),
 				(mw - x) / columns
 			);
+
+		/* change number of lines dynamically to remove empty ones */
+		if (i+1 < lines)
+			XResizeWindow(dpy, win, mw, (i+1) * bh);
+		else
+			XResizeWindow(dpy, win, mw, (lines+1) * bh);
+
 	} else if (matches) {
 		/* draw horizontal list */
 		x += inputw;
