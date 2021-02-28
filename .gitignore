@@ -1,5 +1,4 @@
 *.diff
 *.o
-/colors.h
 /dmenu
 /stest
