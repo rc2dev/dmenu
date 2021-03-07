@@ -814,6 +814,8 @@ main(int argc, char *argv[])
 			topbar = 0;
 		else if (!strcmp(argv[i], "-f"))   /* grabs keyboard before reading stdin */
 			fast = 1;
+		else if (!strcmp(argv[i], "-i"))   /* dummy option so 3rd party scripts don't fail */
+			fputs("Option -i is redundant, as dmenu is case-insensitive patched.\n", stderr);
 		else if (!strcmp(argv[i], "-s")) { /* case-sensitive item matching */
 			fstrncmp = strncmp;
 			fstrstr = strstr;
