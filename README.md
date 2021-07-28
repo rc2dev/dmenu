@@ -16,8 +16,8 @@ dmenu is an efficient dynamic menu for X.
 ## My own patches
 
 - Remove empty lines dynamically.
-- Make movements more vim-like.
-  `Alt+jklh` work as you would expect, be it on horizontal list, vertical list or grid.
+- Make movements more vim-like and use Ctrl instead of Alt.
+  `Ctrl+jklh` work as you would expect, be it on horizontal list, vertical list or grid.
 - Use ctrl+v/V instead of ctrl+y/Y.
 - Move colors to separate file. Add file with default colors.
 - Complement to `case-insensitive` patch: Keep a dummy `-i` option, so 3rd party scripts don't fail.
