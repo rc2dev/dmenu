@@ -12,6 +12,7 @@ dmenu is an efficient dynamic menu for X.
 - highlight
 - line-height
 - password
+- xresources-alt
 
 ## My own patches
 
@@ -19,7 +20,6 @@ dmenu is an efficient dynamic menu for X.
 - Make movements more vim-like and use Ctrl instead of Alt.
   `Ctrl+jklh` work as you would expect, be it on horizontal list, vertical list or grid.
 - Use ctrl+v/V instead of ctrl+y/Y.
-- Move colors to separate file. Add file with default colors.
 - Complement to `case-insensitive` patch: Keep a dummy `-i` option, so 3rd party scripts don't fail.
 - Complement to `hightlight`patch: Add CLI options for highlight colors.
 
