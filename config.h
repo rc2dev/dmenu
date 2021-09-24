@@ -51,4 +51,5 @@ ResourcePref resources[] = {
 	{ "selfgcolor",  STRING, &selfgcolor },
 	{ "selbgcolor",  STRING, &selbgcolor },
 	{ "prompt",      STRING, &prompt },
+	{ "topbar",      INTEGER, &topbar },
 };
