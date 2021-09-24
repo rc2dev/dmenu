@@ -45,11 +45,12 @@ static const char worddelimiters[] = " ";
  * Xresources preferences to load at startup
  */
 ResourcePref resources[] = {
-	{ "font",        STRING, &font },
-	{ "normfgcolor", STRING, &normfgcolor },
-	{ "normbgcolor", STRING, &normbgcolor },
-	{ "selfgcolor",  STRING, &selfgcolor },
-	{ "selbgcolor",  STRING, &selbgcolor },
-	{ "prompt",      STRING, &prompt },
-	{ "topbar",      INTEGER, &topbar },
+	{ "font",           STRING, &font },
+	{ "normfgcolor",    STRING, &normfgcolor },
+	{ "normbgcolor",    STRING, &normbgcolor },
+	{ "selfgcolor",     STRING, &selfgcolor },
+	{ "selbgcolor",     STRING, &selbgcolor },
+	{ "highlightcolor", STRING, &highlightcolor },
+	{ "prompt",         STRING, &prompt },
+	{ "topbar",         INTEGER, &topbar },
 };
