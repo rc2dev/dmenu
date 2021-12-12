@@ -1,6 +1,6 @@
 # dmenu - dynamic menu
 
-Build of dmenu by [Rafael Cavalcanti](https://rafaelc.org).
+Build of dmenu by [Rafael Cavalcanti](https://rafaelc.org/dev).
 
 dmenu is an efficient dynamic menu for X.
 
