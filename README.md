@@ -9,7 +9,6 @@ dmenu is an efficient dynamic menu for X.
 - case-insensitive
 - grid
 - gridnav
-- highlight
 - line-height
 - password
 - xresources-alt
@@ -21,7 +20,6 @@ dmenu is an efficient dynamic menu for X.
   `Ctrl+jklh` work as you would expect, be it on horizontal list, vertical list or grid.
 - Use ctrl+v/V instead of ctrl+y/Y.
 - Complement to `case-insensitive` patch: Keep a dummy `-i` option, so 3rd party scripts don't fail.
-- Complement to `hightlight`patch: Add CLI options for highlight colors.
 
 ## Requirements
 
