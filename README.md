@@ -15,11 +15,11 @@ dmenu is an efficient dynamic menu for X.
 
 ## My own patches
 
-- Remove empty lines dynamically.
+- Remove empty lines dynamically if topbar.
 - Make movements more vim-like and use Ctrl instead of Alt.
   `Ctrl+jklh` work as you would expect, be it on horizontal list, vertical list or grid.
-- Use ctrl+v/V instead of ctrl+y/Y.
-- Complement to `case-insensitive` patch: Keep a dummy `-i` option, so 3rd party scripts don't fail.
+- Use `ctrl+v/V` instead of `ctrl+y/Y`.
+- Complement to `case-insensitive` patch: Keep a dummy `-i` option, so 3<sup>rd</sup> party scripts don't fail.
 
 ## Requirements
 
